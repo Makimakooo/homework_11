@@ -1,0 +1,63 @@
+@import '_normalize.scss';
+@import '_main.scss';
+@import '_header.scss';
+@import '_offer.scss';
+@import '_button.scss';
+@import '_about.scss';
+@import '_projects.scss';
+@import '_how-work.scss';
+@import '_video.scss';
+
+
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding-left: calc(50vw - 350px);
+    padding-right: calc(50vw - 350px);
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px 16px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+
+  .container {
+    padding-left: calc(50vw - 200px);
+    padding-right: calc(50vw - 200px);
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px 16px;
+  }
+  .header__menu {
+    flex-wrap: wrap; 
+    gap: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  
+.container {
+    padding-left: calc(50vw - 185px);
+    padding-right: calc(50vw - 185px);
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px 16px;
+  }
+  .offer__title {
+    line-height: 1;
+  }
+
+  .projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
