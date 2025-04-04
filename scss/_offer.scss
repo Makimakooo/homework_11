@@ -1,17 +1,18 @@
-.header {
-    background: #eeeff1;
-    padding-top: 142px;
-    padding-bottom: 142px;
-  
-    &__title {
-      font-size: 48px;
-      color: #000;
-      font-weight: 500;
-      margin: 0 0 60px;
-    }
-  
-    &__description {
-      max-width: 540px;
-      margin: 0 0 65px;
-    }
-  }
+.offer {
+  background: #eeeff1;
+  padding-top: 142px;
+  padding-bottom: 142px;
+
+
+&__title {
+  font-size: 48px;
+  color: #000000;
+  font-weight: 500;
+  margin: 0 0 60px;
+}
+
+&__description {
+  max-width: 540px;
+  margin: 0 0 65px;
+}
+}

@@ -1,7 +1,7 @@
 .video {
     position: relative;
     box-sizing: border-box;
-  
+}
   
   .video::after {
     content: "";
@@ -32,4 +32,3 @@
   .video__play:focus {
     opacity: 0.7;
   }
-}
